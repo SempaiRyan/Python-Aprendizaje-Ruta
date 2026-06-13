@@ -11,3 +11,16 @@ print(a+b)
 a="Hola"
 b="Adios"
 print(a+b)
+
+""""
+OPERADORES          
++                   
+=                   
+*                   
+/           
+//
+%
+**
+
+
+"""
