@@ -44,7 +44,7 @@ print('Continuamos.......')
 
 
 
-
+print(f'Resultado: {resultado}')
 # BaseException → Clase base de todas las excepciones en Python
 # Exception → Clase base para la mayoría de errores comunes
 
