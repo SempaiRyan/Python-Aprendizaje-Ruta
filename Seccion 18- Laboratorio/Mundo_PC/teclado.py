@@ -1,22 +1,22 @@
-from dispo_entrada import Dispositivo_entrada
+from dispo_entrada import Dispositivo_Entrada
 
-class Teclados(Dispositivo_entrada):
-    contador_teclado=0
+class Teclado(Dispositivo_Entrada):
+    contador_teclado = 0
 
-    def __init__(self,marca,tipo_entrada):
+    def __init__(self, marca, tipo_entrada):
+        Teclado.contador_teclado += 1
+        self._idTeclado = Teclado.contador_teclado
 
-        Teclados.contador_teclado+=1
-
-        self._id_teclado=Teclados.contador_teclado
-
-        super().__init__(marca,tipo_entrada)
-
+        # Llamada correcta al constructor de la clase padre
+        super().__init__(marca, tipo_entrada)
 
     def __str__(self):
-        return f'ID {self._id_teclado}+ Marca: {self.marca} Tipo: {self.tipo_entrada}'
+        return f'ID {self._idTeclado} + Marca {self._marca} + Tipo Entrada = {self._tipo_entrada}'
 
-if __name__=='__main__':
-    teclado1=Teclados("HP TECLADO",'USB TP')
+
+if __name__ == '__main__':
+    teclado1 = Teclado('Teclado Max HP', 'USB')
     print(teclado1)
-    teclado2=Teclados("BLUUETOOH TECLA",'USB BLUEE')
+
+    teclado2 = Teclado('Teclado Max 2 Acer', 'Teclado Cable')
     print(teclado2)
