@@ -1,0 +1,465 @@
+29-Jun-26 00:31:33 AM - root - INFO - Mensaje nivel Inicial
+29-Jun-26 00:31:33 AM - root - DEBUG - Mensaje nivel Debug
+29-Jun-26 00:31:33 AM - root - INFO - Mensaje nivel Info
+29-Jun-26 00:31:33 AM - root - WARNING - Mensaje nivel Warning
+29-Jun-26 00:31:33 AM - root - ERROR - Mensaje nivel Error
+12:32:15 AM - root - INFO - Mensaje nivel Inicial
+12:32:15 AM - root - DEBUG - Mensaje nivel Debug
+12:32:15 AM - root - INFO - Mensaje nivel Info
+12:32:15 AM - root - WARNING - Mensaje nivel Warning
+12:32:15 AM - root - ERROR - Mensaje nivel Error
+12:55:24 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:56:20 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:56:36 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:58:10 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+01:03:31 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+01:03:31 AM - root - DEBUG - 
+            Id persona: None
+            Nombre: Carlitos
+            Apellido: Garcia
+            Mail: cgarcia@gmail
+            
+        
+01:04:34 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+01:04:34 AM - root - DEBUG - 
+            Id persona: None
+            Nombre: Carlitos
+            Apellido: Garcia
+            Mail: cgarcia@gmail
+            
+        
+01:04:34 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: None
+            Apellido: None
+            Mail: None
+            
+        
+06:51:55 PM - root - DEBUG - Conexion exitosa: <connection object at 0x0000022237E0BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost', closed: 0>
+06:56:14 PM - root - DEBUG - Conexion exitosa: <connection object at 0x00000132A6A0BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost', closed: 0>
+06:56:14 PM - root - ERROR - Ocurrio Excepcion obtenerCursor: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+06:56:49 PM - root - DEBUG - Conexion exitosa: <connection object at 0x0000024EA999BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost', closed: 0>
+06:56:49 PM - root - ERROR - Ocurrio Excepcion obtenerCursor: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+06:57:57 PM - root - DEBUG - Conexion exitosa: <connection object at 0x000002226204BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+06:57:57 PM - root - ERROR - Ocurrio Excepcion obtenerCursor: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+06:58:22 PM - root - DEBUG - Conexion exitosa: <connection object at 0x000001D6853CBCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+06:58:22 PM - root - ERROR - Ocurrio Excepcion obtenerCursor: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+07:13:35 PM - root - ERROR - Ocurrió una excepción al obtener la conexión: type object 'Conexion' has no attribute '_USERNAME'
+07:14:48 PM - root - ERROR - Ocurrió una excepción al obtener la conexión: type object 'Conexion' has no attribute '_DB_PORT'
+07:15:05 PM - root - DEBUG - Conexión exitosa: <connection object at 0x00000283491DBCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:15:05 PM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000002834B2FE7A0; closed: 0>
+08:14:40 PM - root - DEBUG - Conexión exitosa: <connection object at 0x0000028DB5DAA790; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+08:14:40 PM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x0000028DB5EC7680; closed: 0>
+08:16:12 PM - root - DEBUG - Conexión exitosa: <connection object at 0x0000023AFF58D140; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+08:16:12 PM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x0000023AFF6365E0; closed: 0>
+08:16:12 PM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan Carlos
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+08:16:12 PM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+08:16:12 PM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+08:16:12 PM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+08:16:12 PM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+12:29:46 AM - root - DEBUG - Conexión exitosa: <connection object at 0x00000246FB40BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:29:46 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x00000246FD582B20; closed: 0>
+12:29:46 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan Carlos
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:29:46 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+12:29:46 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+12:29:46 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+12:29:46 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+12:33:22 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:33:22 AM - root - DEBUG - 
+            Id persona: None
+            Nombre: Carlitos
+            Apellido: Garcia
+            Mail: cgarcia@gmail
+            
+        
+12:33:22 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: None
+            Apellido: None
+            Mail: None
+            
+        
+12:33:26 AM - root - DEBUG - Conexión exitosa: <connection object at 0x000001CE2228BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:33:26 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000001CE24422B20; closed: 0>
+12:33:26 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan Carlos
+            Apellido: Perez
+            Mail: jperez@gmail.com
+            
+        
+12:33:26 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+12:33:26 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+12:33:26 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+12:33:26 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+12:35:46 AM - root - DEBUG - Conexión exitosa: <connection object at 0x00000272073CBDE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:35:46 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x0000027209532B20; closed: 0>
+12:36:36 AM - root - DEBUG - Conexión exitosa: <connection object at 0x000001FA73BDBDE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:36:36 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000001FA75CE2B20; closed: 0>
+12:37:00 AM - root - DEBUG - Conexión exitosa: <connection object at 0x000001F660A4BDE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:37:00 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000001F662B32B20; closed: 0>
+12:38:25 AM - root - DEBUG - Conexión exitosa: <connection object at 0x000001CEEADABDE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:38:25 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000001CEECE92B20; closed: 0>
+12:38:25 AM - root - DEBUG - Persona insertada: 
+            Id persona: None
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+12:38:25 AM - root - DEBUG - Personas insertadas: 1
+12:38:53 AM - root - DEBUG - Conexión exitosa: <connection object at 0x00000133CD17BDE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+12:38:53 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x00000133CF272B20; closed: 0>
+12:38:53 AM - root - DEBUG - Persona insertada: 
+            Id persona: None
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+12:38:53 AM - root - DEBUG - Personas insertadas: 1
+01:03:43 AM - root - DEBUG - Conexión exitosa: <connection object at 0x000001EA4D29BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:03:43 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000001EA4F382B20; closed: 0>
+01:03:43 AM - root - DEBUG - Persona actualizada: 
+            Id persona: 1
+            Nombre: Juan Carlos
+            Apellido: Juarez
+            Mail: cjjuarez@mail.com
+            
+        
+01:03:43 AM - root - DEBUG - Personas actualizadas: 1
+01:03:43 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: Juan Carlos
+            Apellido: Juarez
+            Mail: cjjuarez@mail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 27
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+01:03:43 AM - root - DEBUG - 
+            Id persona: 28
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+01:04:10 AM - root - DEBUG - Conexión exitosa: <connection object at 0x00000294C77DBCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:04:10 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x00000294C98E2B20; closed: 0>
+01:04:10 AM - root - DEBUG - Persona actualizada: 
+            Id persona: 1
+            Nombre: JC
+            Apellido: Juarez
+            Mail: jcjuarez@mail.com
+            
+        
+01:04:10 AM - root - DEBUG - Personas actualizadas: 1
+01:04:10 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: JC
+            Apellido: Juarez
+            Mail: jcjuarez@mail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 27
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+01:04:10 AM - root - DEBUG - 
+            Id persona: 28
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+01:09:03 AM - root - DEBUG - Conexión exitosa: <connection object at 0x00000253094EBCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:09:03 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x000002530B652B20; closed: 0>
+01:09:03 AM - root - DEBUG - Persona _ELIMINAR: 
+            Id persona: 28
+            Nombre: None
+            Apellido: None
+            Mail: None
+            
+        
+01:09:03 AM - root - DEBUG - Personas Eliminadas : 1
+01:09:03 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: JC
+            Apellido: Juarez
+            Mail: jcjuarez@mail.com
+            
+        
+01:09:03 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+01:09:03 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+01:09:03 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+01:09:03 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        
+01:09:03 AM - root - DEBUG - 
+            Id persona: 27
+            Nombre: Pedro
+            Apellido: Najera
+            Mail: pnajera@mail.com
+            
+        
+01:09:24 AM - root - DEBUG - Conexión exitosa: <connection object at 0x0000027BA409BCD0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:09:24 AM - root - DEBUG - Se abrió correctamente el cursor: <cursor object at 0x0000027BA6232B20; closed: 0>
+01:09:24 AM - root - DEBUG - Persona _ELIMINAR: 
+            Id persona: 27
+            Nombre: None
+            Apellido: None
+            Mail: None
+            
+        
+01:09:24 AM - root - DEBUG - Personas Eliminadas : 1
+01:09:24 AM - root - DEBUG - 
+            Id persona: 1
+            Nombre: JC
+            Apellido: Juarez
+            Mail: jcjuarez@mail.com
+            
+        
+01:09:24 AM - root - DEBUG - 
+            Id persona: 5
+            Nombre: Ivonne
+            Apellido: Gutierrez
+            Mail:  igutierrez@gmail.com
+            
+        
+01:09:24 AM - root - DEBUG - 
+            Id persona: 18
+            Nombre: Maria
+            Apellido: Esparza
+            Mail: mesparza@gmail.com
+            
+        
+01:09:24 AM - root - DEBUG - 
+            Id persona: 19
+            Nombre: Carla
+            Apellido: Lara
+            Mail: clara@gmail.com
+            
+        
+01:09:24 AM - root - DEBUG - 
+            Id persona: 26
+            Nombre: Alex
+            Apellido: Rogas
+            Mail: arogas@gmail.com
+            
+        

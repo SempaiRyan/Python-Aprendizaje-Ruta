@@ -1,19 +1,17 @@
 import os
 
 class CatalogoPeliculas:
-
-    ruta_archivo='peliculas.txt'
+    ruta_archivo = 'peliculas.txt'
 
     @classmethod
-    def agregar_pelicula(cls,peliculas):
-        with open(cls.ruta_archivo,'a',encoding='utf-8') as archivo:
-            archivo.write(f'{peliculas.nombre}\n')
-
+    def agregar_pelicula(cls, pelicula):
+        with open(cls.ruta_archivo, 'a', encoding='utf-8') as archivo:
+            archivo.write(f'{pelicula.nombre}\n')
 
     @classmethod
     def listar_pelicula(cls):
-        with open(cls.ruta_archivo,'r',encoding='utf-8') as archivo:
-            print(f'Catalogo Movies:'.center(50,'-'))
+        with open(cls.ruta_archivo, 'r', encoding='utf-8') as archivo:
+            print(f'Catalogo Movies:'.center(50, '-'))
             print(archivo.read())
 
     @classmethod

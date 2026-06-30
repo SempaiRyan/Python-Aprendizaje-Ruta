@@ -1,6 +1,5 @@
-from Domi import Pelicula
-from CatalogoPelicula.Servis.CatalogoPelicula import CatalogoPeliculas
-CatalogoPeliculas
+from Domi.Pelicula import Peliculas
+from Servis.CatalogoPelicula import CatalogoPeliculas
 
 cp = CatalogoPeliculas()
 
@@ -16,9 +15,8 @@ while op != 4:
 
         if op == 1:
             nombre_pelicula = input('Ingresa el nombre de la Pelicula: ')
-            pelicula = Pelicula (nombre_pelicula)
-            cp.agregar_pelicula(pelicula)  # aquí ya se crea/actualiza peliculas.txt
-
+            pelicula = Peliculas(nombre_pelicula)
+            cp.agregar_pelicula(pelicula)
 
         elif op == 2:
             cp.listar_pelicula()
