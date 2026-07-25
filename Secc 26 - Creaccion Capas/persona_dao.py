@@ -29,7 +29,7 @@ class PersonaDAO:
     def insertar(cls, persona):
         with Conexion.obtenerConexion():
             with Conexion.obtenerCursor() as cursor:
-                valores = (8, persona.nombre, persona.apellido, persona.email)
+                valores = (8, persona.nombre, persona.apellido, persona.mail)
                 cursor.execute(cls._INSERTAR, valores)
                 log.debug(f'Persona insertada: {persona}')
                 return cursor.rowcount
@@ -38,7 +38,7 @@ class PersonaDAO:
     def actualizar(cls, persona):
         with Conexion.obtenerConexion():
             with Conexion.obtenerCursor() as cursor:
-                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+                valores = (persona.nombre, persona.apellido, persona.mail, persona.id_persona)
                 cursor.execute(cls._ACTUALIZAR, valores)
                 log.debug(f'Persona actualizada: {persona}')
                 return cursor.rowcount
