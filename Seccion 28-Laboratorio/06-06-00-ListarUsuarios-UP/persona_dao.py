@@ -27,7 +27,7 @@ class PersonaDAO:
     @classmethod
     def insertar(cls, persona):
         with CursorDelPool() as cursor:
-            valores = (persona.nombre, persona.apellido, persona.mail)
+            valores = (persona.nombre, persona.apellido, persona.email)
             cursor.execute(cls._INSERTAR, valores)
             log.debug(f'Persona insertada: {persona}')
             return cursor.rowcount
@@ -35,7 +35,7 @@ class PersonaDAO:
     @classmethod
     def actualizar(cls, persona):
         with CursorDelPool() as cursor:
-            valores = (persona.nombre, persona.apellido, persona.mail, persona.id_persona)
+            valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
             cursor.execute(cls._ACTUALIZAR, valores)
             log.debug(f'Persona actualizada: {persona}')
             return cursor.rowcount

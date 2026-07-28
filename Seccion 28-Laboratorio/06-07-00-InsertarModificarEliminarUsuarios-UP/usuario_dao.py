@@ -26,6 +26,14 @@ class UsuarioDAO:
             return usuarios
 
     @classmethod
+    def insertar(cls, usuario):
+        with CursorDelPool() as cursor:
+            log.debug(f'Usuario a insertar: {usuario}')
+            valores = (usuario.username, usuario.password)
+            cursor.execute(cls._INSERTAR, valores)
+            return cursor.rowcount
+
+    @classmethod
     def actualizar(cls, usuario):
         with CursorDelPool() as cursor:
             log.debug(f'Usuario a actualizar {usuario}')

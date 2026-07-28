@@ -106,3 +106,42 @@ DETAIL:  Key (id_persona)=(4) already exists.
 11:30:47 PM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
 11:30:47 PM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
 11:30:47 PM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000011D65E9DE00; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:29:20 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:29:20 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001FCEBAA4050>
+12:29:20 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001FCE9D0D360; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:29:20 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+12:29:20 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:29:20 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+12:30:13 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:30:13 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026902540050>
+12:30:13 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000269007CFBC0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:30:13 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+12:30:13 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:30:13 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+12:31:26 AM: INFO [menu_app_usuario.py:18] Salimos de la aplicación...
+12:34:34 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:34:34 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001F11CFE8050>
+12:34:34 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001F11B20FCD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:34:34 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+12:34:34 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:34:34 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+12:35:42 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:35:42 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001850E6C0050>
+12:35:42 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001850C94FCD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:35:42 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+12:35:42 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:35:42 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+12:37:00 AM: INFO [menu_app_usuario.py:37] Salimos de la aplicación...
+12:37:14 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:37:14 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001FA0CF202F0>
+12:37:14 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001FA0B13FCD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:37:14 AM: DEBUG [usuario_dao.py:31] Usuario a actualizar Usuario: 1 carlitos 2010
+12:37:14 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:37:14 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+12:37:56 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+12:37:56 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002DB1E2A0050>
+12:37:56 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002DB1C51FEF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+12:37:56 AM: DEBUG [cursor_del_pool.py:28] Dentro del bloque with
+12:37:56 AM: DEBUG [cursor_del_pool.py:30] [(3, 'Carlossss', 'Larassss', 'clarass@gmail.com'), (2, 'Ivon', 'Guiti', 'iguiti@gmail.com'), (5, 'Maria', 'Esparza', 'mesparza@gmail.com'), (6, 'Maria', 'Esparza', 'mesparza@gmail.com'), (4, 'Pedro', 'Najera', 'pnajera@mail.com'), (1, 'Juan Carlos', 'Juarez', 'cjjuarez@mail.com')]
+12:37:56 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+12:37:56 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
