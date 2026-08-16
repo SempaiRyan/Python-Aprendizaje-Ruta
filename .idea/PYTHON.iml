@@ -10,7 +10,11 @@
       <excludeFolder url="file://$MODULE_DIR$/Seccion 4-Operadores Python/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="~\Desktop\Python\Python-Aprendizaje-Ruta-main\.venv" jdkType="Python SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Python 3.13 (Python-Aprendizaje-Ruta)" jdkType="Python SDK" />
+>>>>>>> 3f68ce4c0892d5426c1fa39c2881a2ebb67e1397
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
