@@ -9,3 +9,6 @@ print(keyword.kwlist)
 # Función (no podemos utilizar keyword para el nombre de una función)
 # def is():
 #     pass
+
+asss= "hola"
+print(asss)
